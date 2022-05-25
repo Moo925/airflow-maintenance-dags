@@ -12,7 +12,7 @@ A maintenance workflow that you can deploy into Airflow to periodically clean ou
 
        a. Here's a fast way:
 
-                $ wget https://raw.githubusercontent.com/Moo925/airflow-maintenance-dags/edit/master/db-cleanup/airflow-db-cleanup.py
+                $ wget https://raw.githubusercontent.com/Moo925/airflow-maintenance-dags/edit/master/db-cleanup/airflow-db-cleanup+.py
         
 4. Update the global variables (SCHEDULE_INTERVAL, DAG_OWNER_NAME, ALERT_EMAIL_ADDRESSES and ENABLE_DELETE) in the DAG with the desired values
 
